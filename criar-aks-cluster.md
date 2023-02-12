@@ -1,10 +1,12 @@
 ![Portal Azure](https://dytvr9ot2sszz.cloudfront.net/wp-content/uploads/2020/05/k8saks1-1.jpg)
 # Criando um Cluster kubernete no AKS
 Esse tutorial tem como objetivo ajudar a criar um cluster kubernete no Azure AKS. Eu considero que você já tenha uma conta no Azure e que já tenha instalado e configurado o Azure CLI. Se você não tem uma conta no Azure, crie uma [aqui](https://azure.microsoft.com/pt-br/free/). Se você não tem o Azure CLI instalado, instale [aqui](https://docs.microsoft.com/pt-br/cli/azure/install-azure-cli-linux?pivots=apt).  Testei ele usando Ubuntu 22.04.1 LTS porém você pode utilizá-lo no Windows via WSL.
+
 ![Badge](https://img.shields.io/badge/Status-em%20desenvolvimento-yellow) 
 [![Azure](https://img.shields.io/badge/Azure-Portal-darkblue)](https://portal.azure.com/) [![AKS](https://img.shields.io/badge/AKS-kubernete-darkblue)](https://learn.microsoft.com/en-us/azure/aks/) [![kubernete](https://img.shields.io/badge/kubernete-Cluster-darkblue)](https://kubernete.io/docs/concepts/architecture/) [![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04+-orange)](http://ubuntu.com) [![Windows](https://img.shields.io/badge/Windows-WSL-blue)](https://learn.microsoft.com/pt-br/windows/wsl/install)
 [![made-with-VSCode](https://img.shields.io/badge/Made%20With-VSCode-1f425f.svg)](https://code.visualstudio.com/) 
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+
 ## Exportar variáveis de ambiente
 Crie variáveis de ambiente para facilitar a criação do cluster.
 ```bash
