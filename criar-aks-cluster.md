@@ -17,8 +17,6 @@ AKS_SP="nome do service principal"
 NODE_COUNT=1
 NODE_VM_SIZE="Standard_B2s"
 ```
-```
-
 ## Criar um Resource Group
 Separar os recursos por grupos facilita a administração e a organização. 
 ```bash
@@ -27,7 +25,6 @@ az group create \
   --name $AKS_RG \
   --subscription $SUBSCRIPTION
 ```
-
 ## Criar um Service Principal no AD
 Criar um Service Principal no AD para o cluster AKS. 
 ```bash
