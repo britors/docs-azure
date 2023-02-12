@@ -56,7 +56,6 @@ Criar um cluster AKS com o Service Principal criado anteriormente. Nesse exemplo
 ```
 
 ## Gerar o arquivo de configuração do kubeconfig
-Gerar o arquivo de configuração do kubeconfig para o cluster AKS para podermos acessar o cluter criado. 
 Criar o diretório .kube caso ele não exista.
 ```bash
 mkdir ~/.kube
