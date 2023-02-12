@@ -15,6 +15,9 @@ AKS_RG="nome para o resource group"
 SUBSCRIPTION="nome da sua assinatura"
 REGION="região do cluster"
 AKS_SP="nome do service principal"
+NODE_COUNT=1
+NODE_VM_SIZE="Standard_B2s"
+```
 ```
 
 ## Criar um Resource Group
@@ -48,8 +51,8 @@ Criar um cluster AKS com o Service Principal criado anteriormente. Nesse exemplo
   --network-plugin kubenet \
   --load-balancer-sku basic \
   --outbound-type loadBalancer \
-  --node-vm-size Standard_B2s \
-  --node-count 1 \
+  --node-vm-size $NODE_VM_SIZE \
+  --node-count $NODE_COUNT \
   --tags 'ENV=DEV' 'SRV=EXAMPLE'
 ```
 
