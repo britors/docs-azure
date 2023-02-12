@@ -1,6 +1,6 @@
 ![Portal Azure](https://devopstales.github.io/img/azure.webp)
 # Criando um Cluster AKS
-Esse tutorial tem como objetivo criar um cluster AKS no Azure. Eu considero que você já tenha uma conta no Azure e que já tenha instalado e configurado o Azure CLI. Se você não tem uma conta no Azure, crie uma [aqui](https://azure.microsoft.com/pt-br/free/). Se você não tem o Azure CLI instalado, instale [aqui](https://docs.microsoft.com/pt-br/cli/azure/install-azure-cli-linux?pivots=apt).  Testei ele usando Ubuntu 22.04.1 LTS porém você pode usa-lo no MacOS e no Windows via WSL.
+Esse tutorial tem como objetivo criar um cluster AKS no Azure. Eu considero que você já tenha uma conta no Azure e que já tenha instalado e configurado o Azure CLI. Se você não tem uma conta no Azure, crie uma [aqui](https://azure.microsoft.com/pt-br/free/). Se você não tem o Azure CLI instalado, instale [aqui](https://docs.microsoft.com/pt-br/cli/azure/install-azure-cli-linux?pivots=apt).  Testei ele usando Ubuntu 22.04.1 LTS porém você pode utilizá-lo no MacOS e no Windows via WSL.
 
 ![Badge](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow) ![License](https://img.shields.io/badge/License-MIT-blue)
 
