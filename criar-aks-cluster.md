@@ -53,7 +53,8 @@ Criar um cluster AKS com o Service Principal criado anteriormente. Nesse exemplo
 ## Gerar o arquivo de configuração do kubeconfig
 Gerar o arquivo de configuração do kubeconfig para o cluster AKS para podermos acessar o cluter criado. 
 ```bash
-FILE="./$AKS_NAME.kubeconfig"
+mkdir ~/.kube
+FILE="$HOME/.kube/$AKS_NAME.kubeconfig"
 
 az aks get-credentials \
   --name $AKS_NAME \
