@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: lb-aks-lb-sb01
+  namespace: default
+spec:
+  type: LoadBalancer
+  selector:
+    app: aks-lb-sb01
+  ports:
+  - protocol: TCP
+    port: 60000

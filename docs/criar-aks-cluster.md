@@ -26,8 +26,8 @@ az group create \
   --name $AKS_RG \
   --subscription $SUBSCRIPTION
 ```
-## Criar um Service no AD
-Crie um Service no AD para o seu cluster. 
+## Criar o Service of Principle
+Crie um Service of Principle para o seu cluster. 
 ```bash
   az ad sp create-for-rbac \
   --skip-assignment \
