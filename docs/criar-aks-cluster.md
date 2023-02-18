@@ -34,7 +34,7 @@ Crie um Service of Principle para o seu cluster.
   -n $AKS_SP
 ```
 ## Criar o Cluster
-Crie um cluster usando o id e senha do Service criado anteriormente. Nesse exemplo criei com as tags ENV e SRV. Importante criar o cluster com tags para facilitar a organização e a administração.
+Crie um cluster loadbalance standard usando o id e senha do Service criado anteriormente. Nesse exemplo criei com as tags ENV e SRV. Importante criar o cluster com tags para facilitar a organização e a administração.
 ```bash
   az aks create \
   --location $REGION \
@@ -45,7 +45,7 @@ Crie um cluster usando o id e senha do Service criado anteriormente. Nesse exemp
   --service-principal "substituir pelo id gerado no comando para criar o service" \
   --client-secret "substituir pelo id gerado no comando para criar o service" \
   --network-plugin kubenet \
-  --load-balancer-sku basic \
+  --load-balancer-sku standard \
   --outbound-type loadBalancer \
   --node-vm-size $NODE_VM_SIZE \
   --node-count $NODE_COUNT \
